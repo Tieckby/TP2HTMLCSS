@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<!--
+    L'auteur de la page 
+        Nom : Sogodogo Tiémoko
+        Tél : +223 94940220
+        E-mail : tiemogosogodogo94@gmail.com
+-->
+
+<html>
+
+    <!-- L'entête de la page -->
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="login.css">
+        <title>Page de connexion</title>
+    </head>
+    <!-- Fin de l'entête de la page -->
+
+    <!-- Le corps de la page -->
+    <body>
+
+        <!-- Création du formulaire avec la balise form -->
+        <form class="box-form" method="" action="">
+            <h1>Connexion</h1>
+            <p><input type="email" class="email" placeholder="Votre e-mail..." pattern=".+@kalanso.com" title="L'e-mail doit terminer par @kalanso.com" required></p>
+            <p><input type="password" class="password" placeholder="Votre mot de passe..." minlength="6" maxlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8}" title="Veuillez entrer au moins un chiffre, un caractère (Min, Maj)" required></p>
+            <p><input type="submit" class="sendForm" value="Envoyer"> <input type="reset" class="initForm" value="Rénitialiser"></p>
+        </form>
+        <!-- Fin de la balise form -->
+
+    </body>
+    <!-- Fin du corps de la page -->
+
+</html>

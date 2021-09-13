@@ -1,0 +1,47 @@
+/* Les marges intérieures à 0 et la couleur de la page est Gris */
+body
+{
+    padding: 0;
+    background: linear-gradient(50deg, #ffa500, #bdb4b4de);
+}
+
+/* On place le formulaire au centre de la page avec un bg color gris clair */
+form.box-form
+{
+    background-color: #bbadad;
+    width: 500px;
+    padding: 40px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* On modifie un peu le design des deux champs */
+form.box-form input.email, form.box-form input.password
+{
+    border: 1px solid #7700ff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+}
+
+/* On applique un padding, une largeur à nos bouttons */
+form.box-form input.sendForm, form.box-form input.initForm
+{
+    padding: 10px;
+    width: 100px;
+}
+
+/* Quand on pointe sur nos bouttons, on change leur bg color et la couleur du text */
+form.box-form input.sendForm:hover, form.box-form input.initForm:hover
+{
+    background-color: #000;
+    color: #fff;
+}
+
+input.email:valid, input.password:valid
+{
+    background-color: #0db80d;
+}
